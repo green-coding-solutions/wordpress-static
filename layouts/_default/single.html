@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+
+
+<div class="wp-container-8 wp-block-group">
+<h2 class="wp-block-post-title">{{.Params.Title}}</h2>
+</div>
+
+
+
+<main class="wp-container-13 wp-block-group" id="wp--skip-link--target">
+
+
+<div class="wp-container-12 entry-content wp-block-post-content">
+<div class="wp-container-11 wp-elements-10 wp-block-group alignfull has-text-color has-background has-link-color" style="background-color:#ffffff;color:#000000;margin-top:0px;margin-bottom:0px;padding-top:7vw;padding-bottom:7vw">
+<div class="wp-block-columns alignwide">
+<div class="wp-block-column">
+<figure class="wp-block-image size-large"><img src="{{ .Params.Image }}" alt="" class="wp-image-2484"></figure>
+</div>
+
+
+
+<div class="wp-block-column">
+{{ .Content }}
+
+
+
+
+<div class="wp-block-contact-form-7-contact-form-selector"><div role="form" class="wpcf7" id="wpcf7-f15-p7-o1" lang="en-GB" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/api/send-mai" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="15">
+<input type="hidden" name="_wpcf7_version" value="5.5.6">
+<input type="hidden" name="_wpcf7_locale" value="en_GB">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f15-p7-o1">
+<input type="hidden" name="_wpcf7_container_post" value="7">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<p><label> Your name<br>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Your email<br>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Subject<br>
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Your message (optional)<br>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+<p><input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit"></p>
+<p style="display: none !important;"><label>Δ<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="1650034104271"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+{{ end }}

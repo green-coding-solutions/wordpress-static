@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<main class="wp-container-23 wp-block-query">
+<ul class="wp-container-20 wp-block-post-template">
+
+
+    <li class="wp-block-post post-13 post type-post status-publish format-standard hentry category-uncategorised">
+
+<div class="wp-container-11 wp-container-10 wp-block-group">
+    <h2 class="wp-block-post-title"><a href="{{.Permalink}}" target="_self" rel="">{{.Params.Title}}</a></h2>
+
+    <div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">            {{ .Content }} </p></div>
+    <div class="wp-block-template-part">
+<div class="wp-container-9 wp-block-group">
+
+    <div class="wp-container-8 wp-block-group post-meta"  style="display: flex; gap: var( --wp--style--block-gap, 0.5em )">
+        <div></div>
+        <div style="font-size: var(--wp--custom--font-sizes--x-small);" class="is-style-post-author-icon is-style-post-author-icon wp-block-post-author"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">{{ .Params.Author }}</p></div></div>
+        <div style="font-size: var(--wp--custom--font-sizes--x-small);" class="is-style-post-date-icon wp-block-post-date"><time datetime="2022-04-14T10:48:29+02:00"><a href="https://greencoding978133360.wpcomstaging.com/2022/04/14/post-3-this-is-only-for-testing/">{{ .Date.Format "2.1.2006 at 15:04" }}</a></time></div>
+        <div style="font-size: var(--wp--custom--font-sizes--x-small);" class="taxonomy-category is-style-post-category-icon wp-block-post-terms"><a href="https://greencoding978133360.wpcomstaging.com/category/uncategorised/" rel="tag">{{ .Params.Category }}</a></div>
+
+    </div>
+
+</div>
+</div>
+
+    <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+</div>
+
+</li>
+
+</ul>
+
+    <div class="wp-container-22 wp-block-group">
+
+    </div>
+
+</main>
+{{ end}}

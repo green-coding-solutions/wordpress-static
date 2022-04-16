@@ -1,0 +1,3 @@
+baseURL = 'http://wordpress-static.pages.dev/'
+languageCode = 'en-us'
+title = 'My new Hugo site'
