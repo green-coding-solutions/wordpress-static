@@ -27,6 +27,8 @@ we attach a `usage_scenario.yml` to every project.
 You can find all the measurements on https://metrics.green-coding.org/ by searching
 for the repository URL.
 
+<img src="https://img.shields.io/badge/Energy%20cost%20for%20build-1.4%20J-orange">
+
 
 ## Showcase
 
