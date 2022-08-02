@@ -30,6 +30,7 @@ for the repository URL.
 <img src="https://img.shields.io/badge/Energy%20cost%20for%20build-1.4%20J-orange">
 
 
-## Showcase
+## Case Studies
 
-Look at our Showcase where we analyze the data: https://www.green-coding.org/showcases/wordpress-vs-hugo
+Look at our case studies where we analyze the data: https://www.green-coding.org/case-studies/wordpress-vs-hugo-cloudflare/
+
