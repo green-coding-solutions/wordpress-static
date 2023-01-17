@@ -16,7 +16,7 @@ Also use the variable HUGO_VERSION to tell Cloudlfare to use at least 0.95.0 as 
 this repository. Older versions might not work.
 
 
-## Energy cost for building this site
+## OpenEnergyBadge
 
 Although HUGO sites are extremly energy efficient compared to a Wordpress site for instance
 building a site costs energy.
@@ -24,11 +24,7 @@ building a site costs energy.
 To raise awareness and train developers judgement about the orders of magnitude
 we attach a `usage_scenario.yml` to every project.
 
-You can find all the measurements on https://metrics.green-coding.org/ by searching
-for the repository URL.
-
-<img src="https://img.shields.io/badge/Energy%20cost%20for%20build-1.4%20J-orange">
-
+<a href="https://metrics.green-coding.berlin/stats.html?id=8ed2c0b8-78ed-4616-8aee-e1a5fd7cdd0d"><img src="https://api.green-coding.berlin/v1/badge/single/8ed2c0b8-78ed-4616-8aee-e1a5fd7cdd0d?metric=RAPL"></a>
 
 ## Case Studies
 
