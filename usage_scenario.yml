@@ -1,8 +1,7 @@
 ---
-name: Measure energy cost of HUGO build
+name: HUGO build
 author: Arne Tarara
-version: 1
-architecture: linux
+description: Building a static site in HUGO and measuring the energy and carbon cost
 
 services:
   hugo-container:
